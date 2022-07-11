@@ -1,4 +1,4 @@
 pyrogram
-nekos
+nekos.py
 hmtai
 requests
