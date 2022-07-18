@@ -1,8 +1,8 @@
 FROM python:3.8
 
-WORKDIR /movie-otaku-post
+WORKDIR /hentai-anna
 COPY requirements.txt /movie-otaku-post/
 RUN pip3 install -r requirements.txt
-COPY . /movie-otaku-post/
+COPY . /hentai-anna/
 
 CMD python3 bot.py
